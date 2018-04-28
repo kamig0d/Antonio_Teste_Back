@@ -6,10 +6,10 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 
-public class dao {
-    public void salvar(cadastro c) throws SQLException{
+public class DAO {
+    public void salvar(Cadastro c) throws SQLException{
         Connection conn = null;
-        conn = connection.GetDerbyConnection();
+        conn = Connector.GetDerbyConnection();
         PreparedStatement ps = conn.prepareStatement("INSERT INTO TB_CUSTOMER_ACCOUNT (CPF_CNPJ, NM_CUSTOMER, IS_ACTIVE, VL_TOTAL) VALUES (?,?,?,?)");
         
         ps.setString(1, c.getCpf_cnpj());

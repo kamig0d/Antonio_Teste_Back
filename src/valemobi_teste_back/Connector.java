@@ -6,12 +6,10 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 
-public class connection {
+public class Connector {
+    static Connection conn;
     public static Connection GetDerbyConnection() throws SQLException{
-       
-        Connection conn = null;
         try{
-            
             if(conn == null){
                 
                 conn = DriverManager.getConnection("jdbc:derby://localhost:1527/Teste_V", "root", "1234");

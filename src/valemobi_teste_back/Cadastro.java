@@ -2,11 +2,17 @@
 package valemobi_teste_back;
 
 
-public class cadastro {
+public class Cadastro {
     
     public String cpf_cnpj;
     public String name;
     public double total;
+
+    public Cadastro(String cpf_cnpj, String name, double total) {
+        this.cpf_cnpj = cpf_cnpj;
+        this.name = name;
+        this.total = total;
+    }
 
     public String getCpf_cnpj() {
         return cpf_cnpj;
@@ -31,5 +37,13 @@ public class cadastro {
     public void setTotal(double total) {
         this.total = total;
     }
-    
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "cadastro{" +
+                "cpf_cnpj='" + cpf_cnpj + '\'' +
+                ", name='" + name + '\'' +
+                ", total=" + total +
+                '}';
+    }
 }

@@ -19,12 +19,13 @@ public class final_result {
         int i = 0;
         
         Connection conn = null;
-        conn = connection.GetDerbyConnection();
+        conn = Connector.GetDerbyConnection();
         Statement st = conn.createStatement();
         ResultSet rs = st.executeQuery("select * from tb_customer_account where vl_total > 560 and id_customer between 1500 and 2700  order by vl_total desc");
         List<Double> valores = new ArrayList<Double>();
         
         while(rs.next()){
+            int idCustomer = rs.getInt("id_customer");
             String nome = rs.getString("nm_customer");
             valores.add(rs.getDouble("vl_total"));
             size = valores.size();
@@ -33,6 +34,7 @@ public class final_result {
             soma += valores.get(i);
             i++;
             
+            System.out.println("id_customer: "+ idCustomer);
             System.out.println("NM_CUSTOMER: "+ nome);
             System.out.printf("VL_TOTAL = %.2f\n", valores.get(i-1));
             System.out.println("");
