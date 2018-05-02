@@ -14,7 +14,7 @@ public class DAO {
         
         ps.setString(1, c.getCpf_cnpj());
         ps.setString(2, c.getName());
-        ps.setBoolean(3, false);
+        ps.setBoolean(3, c.active);
         ps.setDouble(4, c.getTotal());
         
         try{

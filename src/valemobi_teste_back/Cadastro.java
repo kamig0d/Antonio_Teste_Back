@@ -6,11 +6,13 @@ public class Cadastro {
     
     public String cpf_cnpj;
     public String name;
+    public boolean active;
     public double total;
 
-    public Cadastro(String cpf_cnpj, String name, double total) {
+    public Cadastro(String cpf_cnpj, String name,boolean active, double total) {
         this.cpf_cnpj = cpf_cnpj;
         this.name = name;
+        this.active = active;
         this.total = total;
     }
 
@@ -38,11 +40,22 @@ public class Cadastro {
         this.total = total;
     }
 
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+    
+    
+
     @java.lang.Override
     public java.lang.String toString() {
         return "cadastro{" +
                 "cpf_cnpj='" + cpf_cnpj + '\'' +
                 ", name='" + name + '\'' +
+                ", active='" +active + '\'' +
                 ", total=" + total +
                 '}';
     }
