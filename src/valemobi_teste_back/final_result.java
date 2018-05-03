@@ -28,7 +28,6 @@ public class final_result {
             int idCustomer = rs.getInt("id_customer");
             String nome = rs.getString("nm_customer");
             valores.add(rs.getDouble("vl_total"));
-            size = valores.size();
             
             
             soma += valores.get(i);
@@ -39,6 +38,7 @@ public class final_result {
             System.out.printf("VL_TOTAL = %.2f\n", valores.get(i-1));
             System.out.println("");
         }
+        size = valores.size();
         media = soma/size; 
         System.out.println("");
         System.out.printf("Media = %.2f\n", media);

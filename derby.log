@@ -1,0 +1,65 @@
+Wed May 02 21:40:07 BRT 2018 : Apache Derby Servidor de Rede - 10.10.2.0 - (1582446) iniciado e pronto para aceitar conexões na porta 1527 em {3}
+----------------------------------------------------------------
+Wed May 02 21:40:07 BRT 2018:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instância a816c00e-0163-2371-22c2-ffffe167480b
+no diretório de banco de dados C:\Antonio_Teste_Back\teste 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_171-b11
+user.dir=C:\Program Files\glassfish-4.1.1\javadb
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Antonio_Teste_Back
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''
+----------------------------------------------------------------
+Wed May 02 21:40:14 BRT 2018:
+Encerrando a instância a816c00e-0163-2371-22c2-ffffe167480b
+Wed May 02 21:40:15 BRT 2018 Thread[DRDAConnThread_3,5,main] (DATABASE = teste), (DRDAID = {2}), Banco de dados 'teste' fechado.
+----------------------------------------------------------------
+Wed May 02 21:40:18 BRT 2018:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instância 560740aa-0163-2371-22c2-ffffe167480b
+no diretório de banco de dados C:\Antonio_Teste_Back\teste 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_171-b11
+user.dir=C:\Program Files\glassfish-4.1.1\javadb
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Antonio_Teste_Back
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''
+----------------------------------------------------------------
+Wed May 02 21:40:44 BRT 2018:
+Encerrando a instância 560740aa-0163-2371-22c2-ffffe167480b
+Wed May 02 21:40:45 BRT 2018 Thread[DRDAConnThread_3,5,main] (DATABASE = teste), (DRDAID = {4}), Banco de dados 'teste' fechado.
+----------------------------------------------------------------
+Wed May 02 21:40:58 BRT 2018:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instância 89e800c0-0163-2371-22c2-ffffe167480b
+no diretório de banco de dados C:\Antonio_Teste_Back\Teste_V 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_171-b11
+user.dir=C:\Program Files\glassfish-4.1.1\javadb
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Antonio_Teste_Back
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''
+----------------------------------------------------------------
+Wed May 02 21:41:06 BRT 2018:
+Encerrando a instância 89e800c0-0163-2371-22c2-ffffe167480b
+Wed May 02 21:41:06 BRT 2018 Thread[DRDAConnThread_3,5,main] (DATABASE = Teste_V), (DRDAID = {6}), Banco de dados 'Teste_V' fechado.
+----------------------------------------------------------------
+Wed May 02 21:41:09 BRT 2018:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instância 52f6815c-0163-2371-22c2-ffffe167480b
+no diretório de banco de dados C:\Antonio_Teste_Back\Teste_V 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_171-b11
+user.dir=C:\Program Files\glassfish-4.1.1\javadb
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Antonio_Teste_Back
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''

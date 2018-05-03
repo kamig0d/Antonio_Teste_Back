@@ -13,11 +13,13 @@ public class start {
     public static void main(String[] args) throws SQLException {
         DAO d = new DAO();
         String nameHandler = "usuario";
+        boolean ativ_inat;
         Random r = new Random();
-        for (int i = 0; i < 3000; i++) {
+        for (int i = 0; i < 4000; i++) {
+            ativ_inat = r.nextBoolean();
             double valor = initialValue + (r.nextDouble() * (endValue - initialValue));
             BigDecimal valorDecimal = new BigDecimal(valor).setScale(2, RoundingMode.UP);
-            Cadastro c = new Cadastro("30303030303", nameHandler + i, valorDecimal.doubleValue());
+            Cadastro c = new Cadastro(i+1, "12345678910", nameHandler + i, ativ_inat, valorDecimal.doubleValue());
             d.salvar(c);
         }
     }

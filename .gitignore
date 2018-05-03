@@ -1,1 +1,6 @@
 build/
+nbproject/*
+!nbproject/project.properties
+!nbproject/project.xml
+dist/
+nbproject/private/*
