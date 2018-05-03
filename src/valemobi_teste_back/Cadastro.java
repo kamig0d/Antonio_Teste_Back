@@ -9,8 +9,12 @@ public class Cadastro {
     public boolean active;
     public double total;
 
+<<<<<<< HEAD
     public Cadastro(int id_customer, String cpf_cnpj, String name, boolean active, double total) {
         this.id_customer = id_customer;
+=======
+    public Cadastro(String cpf_cnpj, String name,boolean active, double total) {
+>>>>>>> bf8254a3d0f119d07b540e19b79869333ad73cec
         this.cpf_cnpj = cpf_cnpj;
         this.name = name;
         this.active = active;

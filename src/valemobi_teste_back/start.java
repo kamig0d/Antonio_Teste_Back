@@ -19,7 +19,11 @@ public class start {
             ativ_inat = r.nextBoolean();
             double valor = initialValue + (r.nextDouble() * (endValue - initialValue));
             BigDecimal valorDecimal = new BigDecimal(valor).setScale(2, RoundingMode.UP);
+<<<<<<< HEAD
             Cadastro c = new Cadastro(i+1, "12345678910", nameHandler + i, ativ_inat, valorDecimal.doubleValue());
+=======
+            Cadastro c = new Cadastro("12345678910", nameHandler + i, ativ_inat, valorDecimal.doubleValue());
+>>>>>>> bf8254a3d0f119d07b540e19b79869333ad73cec
             d.salvar(c);
         }
     }
